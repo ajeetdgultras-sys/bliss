@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Online fitness and weight-loss coaching for women. Train at home with live classes, flexible timings and nutrition support.">
+<title>Online Fitness Coaching for Women | Bliss &amp; Burn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><script src="page.js" defer></script></head>
+<body><header><div class="wrap nav"><a href="#top" class="logo"><img src="logo.png" width="86" height="40" alt="Bliss &amp; Burn"></a><nav aria-label="Main navigation"><a href="#results">Results</a><a href="#reviews">Reviews</a><a href="#coaching">How it works</a><a href="#plans">Plans</a></nav><a class="outline call" href="tel:+917676408708">Call our team <span aria-hidden="true">→</span></a></div></header>
+<main id="top"><section class="hero-shell"><div class="hero wrap">
+<div class="hero-copy"><p class="label"><i></i> WOMEN-ONLY · 100% ONLINE</p><h1>Online weight loss coaching <em>for women.</em></h1><p class="lead">Build strength and work towards your weight-loss goals from home with live coaching, flexible batches and nutrition support on eligible plans.</p>
+<ul class="hero-benefits"><li>Morning and evening batches</li><li>Live classes capped at 12 women</li></ul>
+<div class="coach-credit"><img src="coach.webp" alt="" width="50" height="50"><div><strong>Snata Pattnaik</strong><small>Founder · 10+ years coaching</small></div></div></div>
+<div class="hero-form" id="consultation" aria-labelledby="consultation-title"><form id="lead" method="post" action="/api/leads"><h2 id="consultation-title">Get your free plan recommendation</h2><p class="form-intro">Free 15-minute call · No payment or commitment</p><label>Full name<input name="name" autocomplete="name" required maxlength="100"></label><label>Phone number<input name="phone" type="tel" autocomplete="tel" required maxlength="18"></label><label>Primary goal<select name="goal" required><option value="">Select your goal</option><option>Weight loss</option><option>Strength and toning</option><option>Mobility and flexibility</option><option>General fitness</option><option>Post-pregnancy fitness</option></select></label><p id="chosen" hidden></p><p class="lead-error" role="alert" hidden></p><button class="button" type="submit">Get my free plan recommendation →</button><small>We’ll use your number to contact you about your enquiry.</small></form><a class="form-call" href="tel:+917676408708">Prefer to call? +91 76764 08708</a><a class="form-call" href="https://wa.me/917676408708?text=Hi%20Bliss%20%26%20Burn%2C%20I%27d%20like%20to%20ask%20about%20online%20coaching.">Chat on WhatsApp</a><a class="form-call" href="#weight-check">Check my weight loss plan ↓</a></div></div></section>
+<section id="weight-check" class="lavender" aria-labelledby="weight-check-title">
+  <div class="wrap section weight-layout">
+    <div>
+      <p class="label">YOUR STARTING POINT</p>
+      <h2 id="weight-check-title">Check my weight loss plan.</h2>
+      <p class="section-intro">Enter your height and current weight. If you have a goal weight in mind, see how far it is from your starting point.</p>
+      <p class="note">A Bliss &amp; Burn coach can help you choose a realistic goal, workout plan and batch during your free consultation.</p>
+    </div>
+    <div class="weight-card">
+      <form id="weight-form" method="post" action="/api/leads">
+        <label>Height (cm)<input name="height" type="number" inputmode="decimal" min="100" max="250" step="0.1" placeholder="165" required></label>
+        <label>Current weight (kg)<input name="currentWeight" type="number" inputmode="decimal" min="25" max="500" step="0.1" placeholder="78" required></label>
+        <label>Goal weight (kg) <span>Optional</span><input name="goalWeight" type="number" inputmode="decimal" min="25" max="500" step="0.1" placeholder="70"></label>
+        <button class="button" id="weight-next" type="button">Check my starting point →</button>
+        <fieldset id="weight-contact" hidden disabled>
+          <legend>Where can our coach reach you?</legend>
+          <label>Full name<input name="name" autocomplete="name" required maxlength="100"></label>
+          <label>Phone number<input name="phone" type="tel" autocomplete="tel" required maxlength="18"></label>
+          <p class="note">Your contact details and measurements go to Bliss &amp; Burn so a coach can follow up about your plan.</p>
+          <p class="lead-error" role="alert" hidden></p>
+          <button class="button" type="submit">Submit and see my result →</button>
+        </fieldset>
+      </form>
+      <a class="button whatsapp section-action" href="https://wa.me/917676408708?text=Hi%20Bliss%20%26%20Burn%2C%20I%27d%20like%20to%20ask%20about%20weight%20loss%20coaching.">Ask on WhatsApp</a>
+    </div>
+  </div>
+</section>
+<section class="proof" aria-label="Bliss & Burn in numbers"><div class="wrap stats"><div><strong>5,000+</strong><span>Women coached</span></div><div><strong>4.9<span class="star"> ★</span></strong><span>Google rating</span></div><div><strong>10+ yrs</strong><span>Coaching experience</span></div><div><strong>12 max</strong><span>Women per live batch</span></div></div></section>
+<section id="results" class="wrap section"><p class="label">MEMBER RESULTS</p><h2>See how members progressed.</h2><p class="section-intro">Three members share their progress with guided training and a routine that fit their lives.</p><div class="results"><figure><img src="result-1.webp" loading="lazy" width="396" height="393" alt="Vaidehi’s before-and-after photos"><figcaption><strong>Vaidehi</strong><span>5.5 kg in 45 days</span></figcaption></figure><figure><img src="result-2.webp" loading="lazy" width="396" height="393" alt="Pratima’s before-and-after photos"><figcaption><strong>Pratima</strong><span>8 kg in 12 weeks</span></figcaption></figure><figure><img src="result-3.webp" loading="lazy" width="396" height="393" alt="A Bliss &amp; Burn member’s before-and-after photos"><figcaption><strong>Bliss &amp; Burn member</strong><span>12 kg in 90 days</span></figcaption></figure></div><p class="note">Individual results vary with starting point, participation and lifestyle.</p><a class="button whatsapp section-action" href="https://wa.me/917676408708?text=Hi%20Bliss%20%26%20Burn%2C%20I%27d%20like%20to%20ask%20about%20online%20coaching.">Chat on WhatsApp</a></section>
+<section id="reviews" class="lavender"><div class="wrap section">
+  <p class="label">MEMBER REVIEWS</p>
+  <h2>What women valued about their coaching.</h2>
+  <div class="story-grid">
+    <figure class="story"><p>Divya had tried gyms, diets and apps. She says having a plan that fit her work schedule helped her stay consistent, feel more energetic and lose 10 kg over four months.</p><figcaption><strong>Divya Menon</strong><span>IT Manager, Bengaluru</span></figcaption></figure>
+    <figure class="story"><p>Ritu appreciated that her trainers understood Indian meals and daily routines. She says she lost 8 kg while following a way of eating she enjoyed.</p><figcaption><strong>Ritu Agarwal</strong><span>Teacher, Delhi</span></figcaption></figure>
+    <figure class="story"><p>Kavya was unsure about online training at first. She says her coach remembered her schedule and preferences and adjusted the experience around them.</p><figcaption><strong>Kavya Iyer</strong><span>Entrepreneur, Chennai</span></figcaption></figure>
+  </div>
+  <p class="note">Summarised from member stories published by Bliss &amp; Burn. Individual outcomes vary.</p>
+  <a class="button section-action" href="#consultation">Talk to a coach about your goals →</a><a class="button whatsapp section-action" href="https://wa.me/917676408708?text=Hi%20Bliss%20%26%20Burn%2C%20I%27d%20like%20to%20ask%20about%20online%20coaching.">Chat on WhatsApp</a>
+</div></section>
+
+<section class="wrap section">
+  <p class="label">WHAT YOU CAN WORK ON</p>
+  <h2>Build a routine you can keep.</h2>
+  <div class="content-grid">
+    <article><h3>Weight loss and fitness</h3><p>Build consistency with coach-led cardio, strength training and low-impact options that suit your starting level.</p></article>
+    <article><h3>Strength and mobility</h3><p>Use Pilates, core work, mobility and strength sessions to build control, confidence and range of motion.</p></article>
+    <article><h3>Practical nutrition</h3><p>With an eligible plan, get guidance that takes your usual Indian meals, schedule and preferences into account.</p></article>
+  </div>
+</section>
+
+<section id="coaching" class="lavender"><div class="wrap section coaching">
+  <div><p class="label">LIVE ONLINE CLASSES</p><h2>Fit a workout into your day.</h2>
+    <p>Each session runs for 45–60 minutes. Your coach demonstrates movements, guides your form and can adapt exercises to your fitness level. Live batches are capped at 12 women.</p>
+    <p>Classes include strength training, HIIT, LIIT, Zumba, aerobics, Pilates, yoga, mobility, core work and more.</p>
+  </div>
+  <div class="schedule"><h3>Live batch timings</h3>
+    <p><strong>Morning</strong><br>5:45 AM · 7:00 AM · 8:00 AM · 11:00 AM</p>
+    <p><strong>Evening</strong><br>6:00 PM · 7:30 PM</p>
+    <small>All times in IST. Ask your coach about switching batches when your schedule changes.</small>
+    <a class="textlink section-action" href="#consultation">Find a batch that fits →</a><a class="button whatsapp section-action" href="https://wa.me/917676408708?text=Hi%20Bliss%20%26%20Burn%2C%20I%27d%20like%20to%20ask%20about%20online%20coaching.">Chat on WhatsApp</a>
+  </div>
+</div></section>
+
+<section class="wrap section founder-section">
+  <img src="coach.webp" loading="lazy" width="380" height="500" alt="Snata Pattnaik, founder of Bliss &amp; Burn">
+  <div><p class="label">MEET YOUR COACH</p><h2>Train with Snata Pattnaik and her team.</h2>
+    <p>Snata, founder of Bliss &amp; Burn, has more than a decade of coaching experience across Delhi NCR, Bengaluru, Mumbai and Kolkata. She and her certified team run women-only online sessions so members can build a fitness routine around their lives.</p>
+    <p>They use your goals, schedule and starting fitness level to guide your training. Progress can include better strength, stamina and consistency alongside changes on the scale.</p>
+  </div>
+</section>
+
+<section id="plans" class="lavender"><div class="wrap section">
+  <p class="label">COACHING OPTIONS</p><h2>Choose how much support you want.</h2>
+  <p class="section-intro">Start on your own, train with a coach, or add personalised nutrition guidance. Your consultation helps you compare options and find a suitable batch.</p>
+  <div class="plans">
+    <article><h3>Pre-Recorded</h3><p>Follow recorded workouts when it suits you. A good fit if your schedule changes often and you prefer to train independently.</p><a class="outline plan" data-plan="Pre-Recorded" href="#consultation">Ask about self-paced workouts →</a></article>
+    <article><h3>Live Sessions</h3><p>Join coach-led classes in small morning or evening batches. Get real-time guidance on form and movement.</p><a class="outline plan" data-plan="Live Sessions" href="#consultation">Find my live batch →</a></article>
+    <article class="featured"><h3>Live + Diet Plan</h3><p>Combine live workouts with a customised diet plan and priority guidance from the team.</p><a class="button plan" data-plan="Live + Diet Plan" href="#consultation">Get my plan recommendation →</a></article>
+  </div>
+  <div class="flagship"><div><h3>90-Day Transformation</h3><p>Structured coaching with unlimited classes, weekly nutrition updates, fitness counselling and ongoing guidance. Monthly, quarterly, six-month and annual packages are also available.</p></div>
+    <a class="outline plan" data-plan="90-Day Transformation" href="#consultation">Ask about the 90-day plan →</a><a class="button whatsapp section-action" href="https://wa.me/917676408708?text=Hi%20Bliss%20%26%20Burn%2C%20I%27d%20like%20to%20ask%20about%20online%20coaching.">Chat on WhatsApp</a>
+  </div>
+</div></section>
+
+<section class="wrap section"><p class="label">YOUR FREE CONSULTATION</p>
+  <h2>Know what to expect before you decide.</h2>
+  <div class="content-grid">
+    <article><h3>Share your goal</h3><p>Tell us what you want to improve, your experience with exercise and when you can realistically train.</p></article>
+    <article><h3>Get a plan recommendation</h3><p>We’ll discuss which coaching option, batch and nutrition support make sense for you.</p></article>
+    <article><h3>Decide in your own time</h3><p>The first 15-minute conversation is free. You can ask about fees and what’s included before you decide whether to join.</p></article>
+  </div>
+</section>
+<section class="wrap section faq"><p class="label">QUESTIONS</p><h2>Before you join.</h2><details><summary>Can I join as a beginner?</summary><p>Yes. Coaches adjust movements to your current level and guide you in small live batches.</p></details><details><summary>Do I need special equipment?</summary><p>You can start with very little equipment. Ask your coach what is useful for your class and plan.</p></details><details><summary>Which plans include a customised diet plan?</summary><p>Live + Diet Plan and eligible longer programmes include a customised diet plan. Your coach can explain the nutrition support available in each option.</p></details><details><summary>Can I switch my batch?</summary><p>Yes. Choose an available morning or evening batch when your schedule changes.</p></details><details><summary>What happens when I request a consultation?</summary><p>Submit your enquiry and the Bliss &amp; Burn team can contact you to discuss your free consultation. You can also message the team directly on WhatsApp.</p></details><details><summary>Can you guarantee how much weight I’ll lose?</summary><p>Results depend on your starting point, participation and lifestyle. During the consultation, your coach can help you set a realistic goal and explain how progress is tracked.</p></details></section>
+<section class="hero-shell"><div class="wrap section closing"><div><p class="label">FREE 15-MINUTE CONSULTATION</p><h2>Find a fitness plan that fits your life.</h2><p>Get a recommendation for your goal and schedule. No payment or commitment for the first call.</p></div><a class="button" href="#consultation">Get my free recommendation →</a><a class="button whatsapp section-action" href="https://wa.me/917676408708?text=Hi%20Bliss%20%26%20Burn%2C%20I%27d%20like%20to%20ask%20about%20online%20coaching.">Chat on WhatsApp</a></div></section></main>
+<footer><div class="wrap foot"><a href="#top"><img src="logo.png" width="86" height="40" alt="Bliss &amp; Burn"></a><div><a href="https://wa.me/917676408708?text=Hi%20Bliss%20%26%20Burn%2C%20I%27d%20like%20to%20ask%20about%20online%20coaching.">WhatsApp</a><a href="https://www.instagram.com/blissandburnofficial/">Instagram</a><a href="https://www.youtube.com/@burn_bliss">YouTube</a></div><small>© 2026 Bliss &amp; Burn</small></div></footer><div class="mobile-bar"><a class="button" href="#consultation">Get a free consultation →</a></div><div class="floating-contact" aria-label="Contact Bliss &amp; Burn"><a class="floating-call" href="tel:+917676408708" aria-label="Call Bliss &amp; Burn" title="Call Bliss &amp; Burn"><svg aria-hidden="true" viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A18 18 0 0 1 4.1 6.2 2 2 0 0 1 6.1 4h3a2 2 0 0 1 2 1.7l.5 2.7a2 2 0 0 1-.6 1.8l-1.3 1.3a14 14 0 0 0 4.8 4.8l1.3-1.3a2 2 0 0 1 1.8-.6l2.7.5a2 2 0 0 1 1.7 2z"/></svg></a><a class="floating-whatsapp" href="https://wa.me/917676408708?text=Hi%20Bliss%20%26%20Burn%2C%20I%27d%20like%20to%20ask%20about%20online%20coaching." aria-label="Chat on WhatsApp" title="Chat on WhatsApp"><svg aria-hidden="true" viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M20.4 11.6a8.5 8.5 0 0 1-12.5 7.5L4 20l1-3.8a8.5 8.5 0 1 1 15.4-4.6z"/><path d="M9 8c-.6 0-1 1.1-.8 2 .5 2 2.7 4.2 4.7 4.7.9.2 2-.2 2-.8l-2.1-1-1 .7a6.1 6.1 0 0 1-2.4-2.4l.7-1L9 8z"/></svg></a></div></body></html>
